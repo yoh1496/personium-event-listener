@@ -1,0 +1,25 @@
+{
+  "name": "personium-event-listener",
+  "version": "1.0.0",
+  "description": "Tool for deploying user which listens events.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node index.js .tmp_debug",
+    "clean": "rm -r .tmp_debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoh1496/personium-event-listener.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoh1496/personium-event-listener/issues"
+  },
+  "homepage": "https://github.com/yoh1496/personium-event-listener#readme",
+  "dependencies": {
+    "ncp": "^2.0.0",
+    "replace-in-file": "^5.0.2"
+  }
+}
